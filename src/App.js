@@ -10,7 +10,7 @@ const AppLayOut = () => {
     return(
         <>
             <Header />
-            <MainSlide>{[...slides.map((s)=> <img src={s} />)]}</MainSlide>
+            <MainSlide>{[...slides.map((s)=> <img src={s.image} />)]}</MainSlide>
             <HeroSection />
             <OfferSection />
         </>

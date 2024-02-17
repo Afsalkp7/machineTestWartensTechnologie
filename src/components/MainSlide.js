@@ -26,6 +26,7 @@ const MainSlide = ({
           style={{ transform: `translateX(-${curr * 100}%)` }}
         >
           {slides}
+            
         </div>
         <div className="absolute inset-0 flex items-center justify-between p-4">
           <button
