@@ -2,7 +2,7 @@ import React from "react";
 import { LOGO_URL } from "../utils/constants";
 const Header = () => {
   return (
-    <div className="flex justify-between bg-black bg-opacity-50 px-5 mx-24 mt-5 rounded-lg absolute">
+    <div className="flex justify-between bg-black bg-opacity-50 px-5 mx-24 mt-5 rounded-lg fixed z-10">
       <div className="logoContainer px-5 pt-5">
         <img className="w-52" src={LOGO_URL} />
       </div>
