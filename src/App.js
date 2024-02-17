@@ -4,11 +4,8 @@ import Header from "./components/Header";
 import MainSlide from "./components/MainSlide";
 import HeroSection from "./components/HeroSection";
 import OfferSection from "./components/OfferSection";
-const slides = [
-    "https://orionstudyabroad.com/media/products/orion-slide1_6iBG5yT.png",
-    "https://orionstudyabroad.com/media/products/orion-slide2_orX7PP1.png",
-    "https://orionstudyabroad.com/media/products/orion-slide3_J20GAci.png"
-]
+import slides from "./utils/carouselData";
+const slides = slides
 const AppLayOut = () => {
     return(
         <>
