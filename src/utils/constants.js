@@ -1,0 +1,1 @@
+export const LOGO_URL ="https://orionstudyabroad.com/static/website/images/logo.svg"
